@@ -27,19 +27,19 @@ android {
     buildToolsVersion project.ext.androidBuildToolsVersion
     flavorDimensions "default"
     productFlavors {
-      /* armv7 {
+       /*armv7 {
             dimension "default"
             ndk {
                 abiFilter "armeabi-v7a"
             }
-        }
+        }*/
         arm64 {
             dimension "default"
             ndk {
                 abiFilter "arm64-v8a"
             }
         }
-        x86 {
+       /* x86 {
             dimension "default"
             ndk {
                 abiFilter "x86"
@@ -58,7 +58,7 @@ android {
         minSdkVersion project.ext.androidBuildMinSdkVersion
         targetSdkVersion project.ext.androidBuildTargetSdkVersion
         versionCode 8
-        versionName "2.0"
+        versionName "2.3"
 
 
         // Specifies the ABI configurations of your native
