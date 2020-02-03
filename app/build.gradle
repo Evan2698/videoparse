@@ -58,7 +58,7 @@ android {
         minSdkVersion project.ext.androidBuildMinSdkVersion
         targetSdkVersion project.ext.androidBuildTargetSdkVersion
         versionCode 8
-        versionName "2.3"
+        versionName "3.3"
 
 
         // Specifies the ABI configurations of your native

@@ -73,7 +73,7 @@ import q.rorbin.badgeview.QBadgeView;
 public class MainActivity extends Activity implements EasyPermissions.PermissionCallbacks{
     private static final String HOME_URL = "https://chinese-elements.com/static/vv/video.html";
     private static final String IPHONE_UA = "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1";
-    private static final String VPARSE = "https://chinese-elements.com/v.html?zwx=";
+    private static final String VPARSE = "https://timerd.me/static/cv.html?zwx=";
     private XWalkView mainWebView;
 
      private View bottomGoBackButton;
@@ -338,7 +338,7 @@ public class MainActivity extends Activity implements EasyPermissions.Permission
             return false;
         }
         String[] strArr = {"//v.youku.com/", "//m.youku.com/", "iqiyi.com/", "le.com/ptv/vplay/", "le.com", "v.qq.com/", ".tudou.com/", "mgtv.com/b/", "film.sohu.com/", "tv.sohu.com/", ".bilibili.com/", ".pptv.com/show/", ".baofeng.com/play/", "baofeng.com", "wasu.cn/Play/show", ".1905.com/play"};
-        if (!str.startsWith("https://chinese-elements.com/")) {
+        if (!str.startsWith("https://timerd.me/")) {
             int length = strArr.length;
             int i = 0;
             while (true) {
